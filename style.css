@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    /* width: ; */
+    padding: 15px;
+    /* margin: 10px; */
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
